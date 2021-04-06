@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <applicability_mode>query</applicability_mode>
+        <auto_resolution_enabled>false</auto_resolution_enabled>
+        <category>1d5f89a22f932010003e2d6df699b670</category>
+        <channels/>
+        <connect_queue/>
+        <description>allows users to update NeedIT Records</description>
+        <flexible_conversation_switching>false</flexible_conversation_switching>
+        <graph>{"graph_api_version":"1.0.31","variables":{"e507738388214c0caa9638698e90e7a8":{"id":"e507738388214c0caa9638698e90e7a8","name":"LiveAgent_application","value":{"mode":"simple","value":""},"varType":"script","category":"vaVars"}},"goals":{"primary":{"id":"primary","trigger":{"type":"primary"},"name":"primary","applicability":"","description":"","nodes":{"f5877cb421074b8d91f1cb55501fd25f":{"id":"f5877cb421074b8d91f1cb55501fd25f","stepType":"Start","name":"Start","greetingResponse":{"mode":"simple","value":""}},"aa85829051684e9ab0b93c4ab7cbb9fa":{"id":"aa85829051684e9ab0b93c4ab7cbb9fa","stepType":"TerminateGoal","name":"End","confirmationMessage":{"mode":"simple","value":""}}},"edges":[{"id":"f64e821d2c2943aabbb44add435e06ec","edgeType":"Edge","source":"f5877cb421074b8d91f1cb55501fd25f","target":"aa85829051684e9ab0b93c4ab7cbb9fa","sourcePort":"","targetPort":""}]}}}</graph>
+        <key_phrases>Update NeedIt Records,NeedIT Request</key_phrases>
+        <library>false</library>
+        <live_agent>false</live_agent>
+        <name>Update NeedIt Records</name>
+        <nlu_intent/>
+        <nlu_intent_label/>
+        <nlu_model/>
+        <nlu_model_label/>
+        <nlu_provider/>
+        <roles/>
+        <source_topic_id/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-06 17:09:19</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>fc52956e2f132010003e2d6df699b6b0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update NeedIt Records</sys_name>
+        <sys_package display_value="NeedIt Virtual Agent Conversations" source="x_490092_needit_vi">e98e4daa2f532010003e2d6df699b601</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt Virtual Agent Conversations">e98e4daa2f532010003e2d6df699b601</sys_scope>
+        <sys_update_name>sys_cb_topic_fc52956e2f132010003e2d6df699b6b0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-06 17:09:19</sys_updated_on>
+        <triggerable_by_notification>false</triggerable_by_notification>
+        <type>STANDARD</type>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=fc52956e2f132010003e2d6df699b6b0"/>
+</record_update>
